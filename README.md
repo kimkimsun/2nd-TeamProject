@@ -58,7 +58,7 @@ public void OnDrop(PointerEventData eventData)
     }
 }
 ```
-##### bool 타입인 isMove가 True가 되는 조건은 화면상에 정확히 카드를 놓았나 안놓았나의 조건입니다.
+##### bool 타입인 isMove가 True가 되는 조건은 화면상에 정확히 카드를 놓았나 안놓았나의 조건입니다. 이는 Graphic Raycaster의 결과 값으로 확인하였습니다.
 ##### 카드가 사용되는 조건은 Slot.UseCarD() 부분이며, 만약 조건이 충족되지 않았을 시에는 사용이 불가능하게 하였습니다.
 
 ## 두 번째 기능
