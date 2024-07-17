@@ -18,7 +18,7 @@ public class DragableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        previousParent = transform.parent;
+        previousParent.position = transform.position;
     }
 
     public void OnDrag(PointerEventData eventData)
